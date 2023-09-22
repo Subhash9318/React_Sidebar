@@ -43,8 +43,8 @@ function App() {
   const dashboardSections = [
     'Corporate Information',
     'Allowance',
-    'Others', // Added 'Others' section
-    'Holidays', // Added 'Holidays' section
+    'Others', 
+    'Holidays', 
   ];
 
   const handleEditClick = (section) => {
@@ -127,7 +127,7 @@ function App() {
       <div className="sidebar">
         <List>
           {sidebarItems.map((item, index) => (
-            <ListItem button key={index} className="sidebarItem" onClick={() => handleEditClick(item.text)}>
+            <ListItem button key={index} className="sidebarItem">
               <ListItemIcon>{item.icon}</ListItemIcon>
               <ListItemText primary={item.text} />
             </ListItem>
