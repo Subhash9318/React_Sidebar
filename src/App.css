@@ -1,0 +1,65 @@
+
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+/* Sidebar styles */
+.sidebar {
+  background: rgb(39, 24, 124);
+  color: #fff;
+  padding: 20px;
+  width: 240px;
+  height: 400px;
+}
+
+.sidebarItem {
+  color: #fff;
+}
+
+.sidebarItem:hover {
+  background-color: rgb(39, 24, 124);
+}
+
+/* Sidebar Icons */
+.sidebar .MuiSvgIcon-root {
+  fill: #fff; /* Icon color */
+  font-size: 24px; /* Icon size */
+  margin-right: 12px; /* Spacing between icon and text */
+}
+
+/* Sidebar Text */
+.sidebar .MuiListItemText-root {
+  font-size: 16px; /* Text size */
+}
+
+/* Active Sidebar Item */
+.sidebar .active {
+  background-color: #555; /* Active item background color */
+}
+
+
+/* Dashboard styles */
+.dashboard {
+  flex: 2;
+  padding: 20px;
+}
+
+.section {
+  margin: 20px ;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.editButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
