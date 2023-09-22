@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DialogContent, TextField, Button, FormGroup } from '@mui/material';
+import { DialogContent, TextField, FormGroup } from '@mui/material';
 import './FormStyles.css'; // Import the CSS file
 
 function CorporateInfoForm({ onSave, onCancel }) {
