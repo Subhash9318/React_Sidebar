@@ -17,7 +17,6 @@ import {
   Home,
   Subscriptions,
   Work,
-  Edit,
   Business,
   AccountBalance,
   BusinessCenter,
