@@ -9,10 +9,6 @@ import {
   DialogContent,
   TextField,
   Button,
-  FormControl,
-  FormControlLabel,
-  Radio,
-  RadioGroup,
 } from '@mui/material';
 import './App.css'; // Import the CSS file
 import CorporateInfoForm from './components/CorporateInfoForm';
